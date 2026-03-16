@@ -1,0 +1,22 @@
+# Version control
+.git
+.gitignore
+
+# Documentation
+*.md
+docs/
+
+# OpenSpec artifacts
+openspec/
+
+# Local environment / secrets
+.env
+.env.*
+
+# Local build output (avoid overwriting the container build)
+gin-demo
+
+# OS / editor noise
+.DS_Store
+*.swp
+*.swo
